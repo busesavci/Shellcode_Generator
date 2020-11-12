@@ -1,0 +1,13 @@
+form{
+    background: darkseagreen;
+    padding: 40px;
+}
+
+#saved {
+        margin-top: 40px;
+    color: seagreen;
+}
+
+#build-button, #save-button {
+    margin-top: 30px;
+}
