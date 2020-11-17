@@ -13,8 +13,8 @@ APPLICATION_TYPE = (
 )
 
 ENCRYPTION_TYPE = (
-    ('RSA', 'RSA'),
     ('AES-CBC', 'AES-CBC'),
+    ('RSA', 'RSA'),
     ('Blowfish', 'Blowfish'),
 )
 
@@ -25,7 +25,7 @@ class Data(models.Model):
     Sleep_value = models.IntegerField(default=0, null=True)
     Application_value = models.CharField(default='Console Application', choices=APPLICATION_TYPE, max_length=50, null=True)
     Payload_value = models.CharField(default='meterpreter/reverse_tcp', choices=PAYLOAD_TYPE, max_length=50, null=True)
-    Encryption_value = models.CharField(default='RSA', choices=ENCRYPTION_TYPE, max_length=50, null=True)
+    Encryption_value = models.CharField(default='AES-CBC', choices=ENCRYPTION_TYPE, max_length=50, null=True)
 
     def __str__(self):
 

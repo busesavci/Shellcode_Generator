@@ -2,15 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4dcb3da4-4cba-4693-a2aa-fa88abab75c2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/BUSE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/BUSE.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PrivEnc/encryptor.py" beforeDir="false" afterPath="$PROJECT_DIR$/PrivEnc/encryptor.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PrivEnc/local_settings.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PrivEnc/tests.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PrivEnc/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/PrivEnc/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Privia/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/Privia/settings.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,7 +62,7 @@
     <property name="add_unversioned_files" value="$PROJECT_DIR$/Privia/local_settings.py" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/PrivEnc/templates/PrivEnc" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -82,6 +74,28 @@
     </key>
   </component>
   <component name="RunManager" selected="Python.tests">
+    <configuration name="Olasilik" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Privia" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PrivEnc" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PrivEnc/Olasilik.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="encryptor" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Privia" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -118,28 +132,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PrivEnc/ruveyda.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Privia" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PrivEnc" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PrivEnc/test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -219,10 +211,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.tests" />
+        <item itemvalue="Python.Olasilik" />
         <item itemvalue="Python.ruveyda" />
         <item itemvalue="Python.encryptor" />
         <item itemvalue="Python.views" />
-        <item itemvalue="Python.test" />
       </list>
     </recent_temporary>
   </component>
@@ -267,7 +259,11 @@
       <workItem from="1605092683900" duration="4461000" />
       <workItem from="1605115957608" duration="459000" />
       <workItem from="1605167448838" duration="296000" />
-      <workItem from="1605167780734" duration="5582000" />
+      <workItem from="1605167780734" duration="6487000" />
+      <workItem from="1605174972650" duration="1414000" />
+      <workItem from="1605258703255" duration="18254000" />
+      <workItem from="1605511230987" duration="23211000" />
+      <workItem from="1605611369382" duration="7187000" />
     </task>
     <servers />
   </component>
@@ -279,18 +275,18 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="275" y="27" key="#Inspections/0.0.1366.738@0.0.1366.738" timestamp="1603718555298" />
-    <state x="432" y="172" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1605015477959">
+    <state x="432" y="172" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1605614139878">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="432" y="172" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.738@0.0.1366.738" timestamp="1605015477959" />
+    <state x="432" y="172" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.738@0.0.1366.738" timestamp="1605614139878" />
     <state x="324" y="136" key="#com.intellij.ide.fileTemplates.ui.ConfigureTemplatesDialog" timestamp="1600611275696">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="324" y="136" key="#com.intellij.ide.fileTemplates.ui.ConfigureTemplatesDialog/0.0.1366.738@0.0.1366.738" timestamp="1600611275696" />
-    <state x="413" y="116" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1600674083118">
+    <state x="413" y="116" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1605619488465">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="413" y="116" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.738@0.0.1366.738" timestamp="1600674083118" />
+    <state x="413" y="116" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.738@0.0.1366.738" timestamp="1605619488465" />
     <state x="260" y="0" key="CommitChangelistDialog2" timestamp="1605173385357">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
@@ -299,22 +295,22 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="92" y="92" width="1182" height="554" key="DiffContextDialog/0.0.1366.738@0.0.1366.738" timestamp="1605167591668" />
-    <state width="1323" height="150" key="GridCell.Tab.0.bottom" timestamp="1605169484991">
+    <state width="1323" height="199" key="GridCell.Tab.0.bottom" timestamp="1605537625099">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="150" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1605169484991" />
-    <state width="1323" height="150" key="GridCell.Tab.0.center" timestamp="1605169484991">
+    <state width="1323" height="199" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1605537625099" />
+    <state width="1323" height="199" key="GridCell.Tab.0.center" timestamp="1605537625098">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="150" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1605169484991" />
-    <state width="1323" height="150" key="GridCell.Tab.0.left" timestamp="1605169484991">
+    <state width="1323" height="199" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1605537625098" />
+    <state width="1323" height="199" key="GridCell.Tab.0.left" timestamp="1605537625098">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="150" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1605169484991" />
-    <state width="1323" height="150" key="GridCell.Tab.0.right" timestamp="1605169484991">
+    <state width="1323" height="199" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1605537625098" />
+    <state width="1323" height="199" key="GridCell.Tab.0.right" timestamp="1605537625099">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="150" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1605169484991" />
+    <state width="1323" height="199" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1605537625099" />
     <state width="1323" height="227" key="GridCell.Tab.1.bottom" timestamp="1601221085708">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
@@ -331,14 +327,14 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state width="1323" height="227" key="GridCell.Tab.1.right/0.0.1366.738@0.0.1366.738" timestamp="1601221085708" />
-    <state x="502" y="80" key="RollbackChangesDialog" timestamp="1605167933531">
+    <state x="502" y="80" key="RollbackChangesDialog" timestamp="1605174611200">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="502" y="80" key="RollbackChangesDialog/0.0.1366.738@0.0.1366.738" timestamp="1605167933531" />
-    <state x="184" y="11" key="SettingsEditor" timestamp="1605167915359">
+    <state x="502" y="80" key="RollbackChangesDialog/0.0.1366.738@0.0.1366.738" timestamp="1605174611200" />
+    <state x="184" y="11" key="SettingsEditor" timestamp="1605263134694">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="184" y="11" key="SettingsEditor/0.0.1366.738@0.0.1366.738" timestamp="1605167915359" />
+    <state x="184" y="11" key="SettingsEditor/0.0.1366.738@0.0.1366.738" timestamp="1605263134694" />
     <state x="488" y="233" key="git4idea.rebase.GitRebaseDialog" timestamp="1605168143592">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
@@ -352,8 +348,9 @@
     <SUITE FILE_PATH="coverage/Privia$encryptor.coverage" NAME="encryptor Coverage Results" MODIFIED="1602235986735" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PrivEnc" />
     <SUITE FILE_PATH="coverage/Privia$ruveyda.coverage" NAME="ruveyda Coverage Results" MODIFIED="1602843199369" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PrivEnc" />
     <SUITE FILE_PATH="coverage/Privia$views.coverage" NAME="views Coverage Results" MODIFIED="1601456314436" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PrivEnc" />
-    <SUITE FILE_PATH="coverage/Privia$tests.coverage" NAME="tests Coverage Results" MODIFIED="1605169428230" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PrivEnc" />
+    <SUITE FILE_PATH="coverage/Privia$tests.coverage" NAME="tests Coverage Results" MODIFIED="1605513837466" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PrivEnc" />
     <SUITE FILE_PATH="coverage/Privia$test.coverage" NAME="test Coverage Results" MODIFIED="1601212392543" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PrivEnc" />
+    <SUITE FILE_PATH="coverage/Privia$Olasilik.coverage" NAME="Olasilik Coverage Results" MODIFIED="1605175489813" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PrivEnc" />
     <SUITE FILE_PATH="coverage/Privia$meterpereter_generator.coverage" NAME="meterpereter_generator Coverage Results" MODIFIED="1601210043006" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PrivEnc" />
   </component>
 </project>

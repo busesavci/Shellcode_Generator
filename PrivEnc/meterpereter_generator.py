@@ -1,7 +1,7 @@
-# shellcode formatter method
-def ConvertToHex(array):
-    array4 = "".join(("\\x{:02x}".format(c) for c in array))
-    return array4
+# # shellcode formatter method
+# def ConvertToHex(array):
+#     array4 = "".join(("\\x{:02x}".format(c) for c in array))
+#     return array4
 
 
 class x86ShellCode:
@@ -49,7 +49,7 @@ class x86ShellCode:
         else:
             array[183] = int(0)
             array[184] = int(num)
-        return ConvertToHex(array)
+        return bytes(array)
 
     def ReverseTcpRc4(Ip, Port):
         array = [
@@ -89,7 +89,7 @@ class x86ShellCode:
             else:
                 array[183] = int(b)
                 array[184] = int(num)
-        return ConvertToHex(array)
+        return bytes(array)
 
     def BindTcp(Port):
         array = [
@@ -121,7 +121,7 @@ class x86ShellCode:
                 array[192] = int(b)
                 array[193] = int(num)
 
-        return ConvertToHex(array)
+        return bytes(array)
 
     def ShellReverseTcp(Ip, Port):
         array = [
@@ -156,7 +156,7 @@ class x86ShellCode:
             else:
                 array[183] = int(b)
                 array[184] = int(num)
-        return ConvertToHex(array)
+        return bytes(array)
 
     def ShellReverseTcpRc4(Ip, Port):
         array = [
@@ -196,7 +196,7 @@ class x86ShellCode:
             else:
                 array[183] = int(b)
                 array[184] = int(num)
-        return ConvertToHex(array)
+        return bytes(array)
 
     def ShellBindTcp(Port):
         array = [
@@ -227,7 +227,7 @@ class x86ShellCode:
             else:
                 array[192] = int(b)
                 array[193] = int(num)
-        return ConvertToHex(array)
+        return bytes(array)
 
     def ShellBindTcpRc4(Port):
         array = [
@@ -262,7 +262,7 @@ class x86ShellCode:
             else:
                 array[192] = int(b)
                 array[193] = int(num)
-        return ConvertToHex(array)
+        return bytes(array)
 
 
 class x64ShellCode:
@@ -318,7 +318,7 @@ class x64ShellCode:
             else:
                 array[244] = int(b)
                 array[245] = int(num)
-        return ConvertToHex(array)
+        return bytes(array)
 
     def ReverseTcpRc4(Ip, Port):
         array = [
@@ -366,7 +366,7 @@ class x64ShellCode:
             else:
                 array[244] = int(b)
                 array[245] = int(num)
-        return ConvertToHex(array)
+        return bytes(array)
 
     def BindTcp(Port):
         array = [
@@ -405,7 +405,7 @@ class x64ShellCode:
             else:
                 array[253] = int(b)
                 array[254] = int(num)
-        return ConvertToHex(array)
+        return bytes(array)
 
     def ShellReverseTcp(Ip, Port):
         array = [
@@ -447,7 +447,7 @@ class x64ShellCode:
             else:
                 array[244] = int(b)
                 array[245] = int(num)
-        return ConvertToHex(array)
+        return bytes(array)
 
     def ShellBindTcp(Port):
         array = [
@@ -487,4 +487,4 @@ class x64ShellCode:
             else:
                 array[253] = int(b)
                 array[254] = int(num)
-        return ConvertToHex(array)
+        return bytes(array)
